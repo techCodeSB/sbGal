@@ -42,3 +42,18 @@ A simple JavaScript library for image gallery
     <img src="img4path"/>
   </div>
 ```
+
+### Using custome arrow
+---
+
+```html
+<div class="sbGal" sbOpt="{
+    rightArrow: <img src='right_arrow.png' />,
+    leftArrow: <img src='left_arrow.png' />
+  }">
+    <img src="img1path"/>
+    <img src="img2path"/>
+    <img src="img3path"/>
+    <img src="img4path"/>
+  </div
+  ```
