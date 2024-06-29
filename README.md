@@ -8,7 +8,7 @@ A simple JavaScript library for image gallery
   <title>sb_js</title>
 </head>
 <body>
-  <div class="sbGal" sbOpt="{
+  <div id="sbGal" sbOpt="{
     arrows:true,
   }">
     <img src="img1path"/>
@@ -30,7 +30,7 @@ A simple JavaScript library for image gallery
 - leftArrow: HTML element
 
 ```html
-<div class="sbGal" sbOpt="{
+<div id="sbGal" sbOpt="{
     arrows:true,
     counter: true,
     rightArrow: <p>a</p>,
@@ -47,7 +47,7 @@ A simple JavaScript library for image gallery
 ---
 
 ```html
-<div class="sbGal" sbOpt="{
+<div id="sbGal" sbOpt="{
     rightArrow: <img src='right_arrow.png' />,
     leftArrow: <img src='left_arrow.png' />
   }">
